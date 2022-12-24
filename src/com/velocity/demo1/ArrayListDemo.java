@@ -10,9 +10,9 @@ public class ArrayListDemo {
 		
 		list.add("Kshitija");
 		list.add("Kuldip");
-		list.add("Khaire");
+		list.add("Amit");
 		
-		System.out.println(list);
+		list.forEach((n)-> System.out.println(n));
 
 	}
 
