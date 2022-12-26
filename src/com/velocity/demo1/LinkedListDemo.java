@@ -11,7 +11,9 @@ public class LinkedListDemo {
 		list.add(20);
 		list.add(30);
 		
-		list.forEach((n) -> System.out.println(n));
+		for(Integer i : list) {
+			System.out.println(i);
+		}
 		
 	}
 

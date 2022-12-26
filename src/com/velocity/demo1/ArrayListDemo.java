@@ -12,7 +12,10 @@ public class ArrayListDemo {
 		list.add("Kuldip");
 		list.add("Amit");
 		
-		list.forEach((n)-> System.out.println(n));
+		for(String s : list) {
+			System.out.println(s);
+		}
+		
 
 	}
 
