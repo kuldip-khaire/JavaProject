@@ -12,6 +12,8 @@ public class ArrayListDemo {
 		list.add("Kuldip");
 		list.add("Amit");
 		
+		System.out.println("Scenario-01");
+		
 		for(String s : list) {
 			System.out.println(s);
 		}

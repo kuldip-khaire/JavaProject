@@ -11,6 +11,8 @@ public class LinkedListDemo {
 		list.add(20);
 		list.add(30);
 		
+		System.out.println("Scenario-01");
+		
 		for(Integer i : list) {
 			System.out.println(i);
 		}
